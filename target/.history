@@ -1,0 +1,10 @@
+run
+help
+compile
+reload
+exit
+reload
+spec
+test
+reload
+test
