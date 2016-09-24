@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0m[32mGenderAnalyzerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mgender analyzer[0m[0m
+[0m[[0minfo[0m] [0m[32m  pronouns[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return MALE when input has a male pronoun[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return FEMALE when input has a female pronoun[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return INCONCLUSIVE when input has no pronouns[0m[0m
+[0m[[0minfo[0m] [0m[32m  names[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return MALE when input has a male name[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return FEMALE when input has a female name[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return INCONCLUSIVE when input has no names[0m[0m

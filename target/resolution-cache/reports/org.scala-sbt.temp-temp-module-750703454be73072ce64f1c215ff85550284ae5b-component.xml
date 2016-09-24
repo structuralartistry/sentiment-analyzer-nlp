@@ -7,7 +7,7 @@
 		revision="0.13.12"
 		conf="component"
 		confs="component"
-		date="20160924153721"/>
+		date="20160924180456"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="compiler-interface">
 			<revision name="0.13.12" status="release" pubdate="20160715235311" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
