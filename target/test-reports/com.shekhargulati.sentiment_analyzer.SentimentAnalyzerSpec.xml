@@ -1,27 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="alexiLVM" name="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" tests="1" errors="1" failures="0" time="-0.001">
+<testsuite hostname="alexiLVM" name="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" tests="5" errors="0" failures="1" time="4.022">
                      <properties>
-      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/><property name="java.vm.version" value="24.111-b01"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/alexi/Documents/projects/cota"/><property name="java.runtime.version" value="1.7.0_111-b01"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.19.0-31-generic"/><property name="user.home" value="/home/alexi"/><property name="user.timezone" value="America/Chicago"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="java.class.path" value="/usr/share/sbt-launcher-packaging/bin/sbt-launch.jar"/><property name="user.name" value="alexi"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="/usr/share/sbt-launcher-packaging/bin/sbt-launch.jar"/><property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_111"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/><property name="java.vm.version" value="25.101-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/alexi/Documents/projects/cota"/><property name="java.runtime.version" value="1.8.0_101-b13"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.19.0-31-generic"/><property name="user.home" value="/home/alexi"/><property name="user.timezone" value="America/Chicago"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/share/sbt-launcher-packaging/bin/sbt-launch.jar"/><property name="user.name" value="alexi"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/share/sbt-launcher-packaging/bin/sbt-launch.jar"/><property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_101"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-                     <testcase classname="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" name="(It is not a test)" time="-0.001">
-                                                 <error message="edu/stanford/nlp/pipeline/StanfordCoreNLP : Unsupported major.minor version 52.0" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: edu/stanford/nlp/pipeline/StanfordCoreNLP : Unsupported major.minor version 52.0
-	at java.lang.ClassLoader.defineClass1(Native Method)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:803)
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
-	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
-	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$.&lt;init&gt;(SentimentAnalyzer.scala:17)
-	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$.&lt;clinit&gt;(SentimentAnalyzer.scala)
-	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SentimentAnalyzerSpec.scala:11)
-	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(SentimentAnalyzerSpec.scala:9)
-	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(SentimentAnalyzerSpec.scala:9)
+                     <testcase classname="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" name="sentiment analyzer should return POSITIVE when input has positive emotion" time="1.509">
+                                                 
+                                               </testcase><testcase classname="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" name="sentiment analyzer should return NEGATIVE when input has negative emotion" time="0.263">
+                                                 
+                                               </testcase><testcase classname="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" name="sentiment analyzer should return NEUTRAL when input has no emotion" time="0.084">
+                                                 
+                                               </testcase><testcase classname="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" name="sentiment analyzer COTA supplied texts should return NEUTRAL when input has mixed emotion" time="0.934">
+                                                 
+                                               </testcase><testcase classname="com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec" name="sentiment analyzer COTA supplied texts should return POSITIVE affect" time="1.232">
+                                                 <failure message="List((Hua Min liked playing tennis.,POSITIVE), (She first started playing on her 8th birthday - 07/07/1996.,NEUTRAL), (Playing tennis always made her happy.,POSITIVE), (She won her first tournament on 08/12/2010.,POSITIVE), (However, on 04/15/2015 when she was playing at the Flushing Meadows, she had a serious injury and had to retire from her tennis career.,NEUTRAL)) was not equal to POSITIVE" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: List((Hua Min liked playing tennis.,POSITIVE), (She first started playing on her 8th birthday - 07/07/1996.,NEUTRAL), (Playing tennis always made her happy.,POSITIVE), (She won her first tournament on 08/12/2010.,POSITIVE), (However, on 04/15/2015 when she was playing at the Flushing Meadows, she had a serious injury and had to retire from her tennis career.,NEUTRAL)) was not equal to POSITIVE
+	at org.scalatest.MatchersHelper$.newTestFailedException(MatchersHelper.scala:160)
+	at org.scalatest.Matchers$ShouldMethodHelper$.shouldMatcher(Matchers.scala:6254)
+	at org.scalatest.Matchers$AnyShouldWrapper.should(Matchers.scala:6288)
+	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec$$anonfun$1$$anonfun$apply$mcV$sp$4$$anonfun$apply$mcV$sp$6.apply$mcV$sp(SentimentAnalyzerSpec.scala:40)
+	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec$$anonfun$1$$anonfun$apply$mcV$sp$4$$anonfun$apply$mcV$sp$6.apply(SentimentAnalyzerSpec.scala:37)
+	at com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec$$anonfun$1$$anonfun$apply$mcV$sp$4$$anonfun$apply$mcV$sp$6.apply(SentimentAnalyzerSpec.scala:37)
 	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
 	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
 	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
@@ -39,6 +37,11 @@
 	at org.scalatest.FunSpecLike$$anonfun$runTests$1.apply(FunSpecLike.scala:464)
 	at org.scalatest.FunSpecLike$$anonfun$runTests$1.apply(FunSpecLike.scala:464)
 	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:427)
 	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
 	at scala.collection.immutable.List.foreach(List.scala:381)
 	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
@@ -81,13 +84,13 @@
 	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
 	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-</error>
+</failure>
                                                </testcase>
                      <system-out></system-out>
                      <system-err></system-err>

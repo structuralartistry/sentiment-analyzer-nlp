@@ -1,15 +1,9 @@
 [0m[[0minfo[0m] [0m[32mSentimentAnalyzerSpec:[0m[0m
 [0m[[0minfo[0m] [0m[32msentiment analyzer[0m[0m
-[0m[[0minfo[0m] [0m[31mException encountered when attempting to run a suite with class name: com.shekhargulati.sentiment_analyzer.SentimentAnalyzerSpec *** ABORTED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedClassVersionError: edu/stanford/nlp/pipeline/StanfordCoreNLP : Unsupported major.minor version 52.0[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.lang.ClassLoader.defineClass1(Native Method)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.lang.ClassLoader.defineClass(ClassLoader.java:803)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader.access$100(URLClassLoader.java:71)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader$1.run(URLClassLoader.java:361)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader$1.run(URLClassLoader.java:355)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.security.AccessController.doPrivileged(Native Method)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader.findClass(URLClassLoader.java:354)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at java.lang.ClassLoader.loadClass(ClassLoader.java:425)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return POSITIVE when input has positive emotion[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return NEGATIVE when input has negative emotion[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return NEUTRAL when input has no emotion[0m[0m
+[0m[[0minfo[0m] [0m[32m  COTA supplied texts[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return NEUTRAL when input has mixed emotion[0m[0m
+[0m[[0minfo[0m] [0m[31m  - should return POSITIVE affect *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m    List((Hua Min liked playing tennis.,POSITIVE), (She first started playing on her 8th birthday - 07/07/1996.,NEUTRAL), (Playing tennis always made her happy.,POSITIVE), (She won her first tournament on 08/12/2010.,POSITIVE), (However, on 04/15/2015 when she was playing at the Flushing Meadows, she had a serious injury and had to retire from her tennis career.,NEUTRAL)) was not equal to POSITIVE (SentimentAnalyzerSpec.scala:40)[0m[0m

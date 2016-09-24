@@ -1,4 +1,3 @@
-
 initialize := {
   val required = "1.8"
   val current  = sys.props("java.specification.version")
