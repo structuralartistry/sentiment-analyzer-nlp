@@ -1,9 +1,3 @@
 [0m[[0minfo[0m] [0m[32mSentimentAnalyzerSpec:[0m[0m
 [0m[[0minfo[0m] [0m[32msentiment analyzer[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return POSITIVE when input has positive emotion[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return NEGATIVE when input has negative emotion[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return NEUTRAL when input has no emotion[0m[0m
-[0m[[0minfo[0m] [0m[32m  COTA supplied texts[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should return NEUTRAL when input has mixed emotion[0m[0m
-[0m[[0minfo[0m] [0m[31m  - should return POSITIVE affect *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m    List((Hua Min liked playing tennis.,POSITIVE), (She first started playing on her 8th birthday - 07/07/1996.,NEUTRAL), (Playing tennis always made her happy.,POSITIVE), (She won her first tournament on 08/12/2010.,POSITIVE), (However, on 04/15/2015 when she was playing at the Flushing Meadows, she had a serious injury and had to retire from her tennis career.,NEUTRAL)) was not equal to POSITIVE (SentimentAnalyzerSpec.scala:40)[0m[0m

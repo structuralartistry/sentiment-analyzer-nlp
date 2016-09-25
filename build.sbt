@@ -11,3 +11,5 @@ scalaVersion := "2.11.7"
 
 libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.5.2" artifacts (Artifact("stanford-corenlp", "models"), Artifact("stanford-corenlp"))
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
+libraryDependencies +=  "com.typesafe.play" %% "play-json" % "2.3.0"

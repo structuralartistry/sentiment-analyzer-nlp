@@ -1,20 +1,32 @@
 package com.shekhargulati.sentiment_analyzer
 
 import java.util.Properties
-
 import com.shekhargulati.sentiment_analyzer.Sentiment.Sentiment
 import edu.stanford.nlp.ling.CoreAnnotations
 import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations
 import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations
-
 import scala.collection.convert.wrapAll._
+import play.api.libs.json._
 
 object SentimentAnalyzer {
 
   val props = new Properties()
   props.setProperty("annotators", "tokenize, ssplit, parse, sentiment")
   val pipeline: StanfordCoreNLP = new StanfordCoreNLP(props)
+
+  def processJson(input: play.api.libs.json.JsValue): play.api.libs.json.JsObject = {
+    val paragraph = (input \ "paragraph").as[String]
+
+    val sentiment = mainSentiment(paragraph)
+    val sentimentString = sentiment match {
+      case Sentiment.NEGATIVE => "NEGATIVE"
+      case Sentiment.POSITIVE => "POSITIVE"
+      case Sentiment.NEUTRAL => "NEUTRAL"
+    }
+
+    Json.obj("sentiment" -> sentimentString, "timeDuration" -> 0, "gender" -> "X")
+  }
 
   def mainSentiment(input: String): Sentiment = Option(input) match {
     case Some(text) if !text.isEmpty => extractSentiment(text)

@@ -36,3 +36,27 @@ exit
 compile
 test
 exit
+test
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+("val1" -> "something")
+val some = ("val1" -> "something")
+import net.liftweb.json._
+exit
+test
+exit
+test
+compile
+test
+compile
+exit
+test
+exit
+test
+reload
+test

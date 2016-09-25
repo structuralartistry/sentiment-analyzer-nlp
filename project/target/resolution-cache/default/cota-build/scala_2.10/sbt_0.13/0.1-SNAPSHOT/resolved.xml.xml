@@ -4,8 +4,8 @@
 		module="cota-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160924175645"
-		e:scalaVersion="2.10" e:sbtVersion="0.13"
+		publication="20160925124910"
+		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
 		cota-build
@@ -36,6 +36,6 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="scala-tool->default,optional(default);provided->default(compile)"/>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.12" conf="provided->default(compile)"/>
-		<dependency org="net.virtual-void" name="sbt-dependency-graph" rev="0.8.1" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
+		<dependency org="net.virtual-void" name="sbt-dependency-graph" rev="0.8.1" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 	</dependencies>
 </ivy-module>
