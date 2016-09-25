@@ -20,9 +20,9 @@ object SentimentAnalyzer {
 
     val sentiment = mainSentiment(paragraph)
     val sentimentString = sentiment match {
-      case Sentiment.NEGATIVE => "NEGATIVE"
-      case Sentiment.POSITIVE => "POSITIVE"
-      case Sentiment.NEUTRAL => "NEUTRAL"
+      case Sentiment.NEGATIVE => "negative"
+      case Sentiment.POSITIVE => "positive"
+      case Sentiment.NEUTRAL => "neutral"
     }
 
     Json.obj("sentiment" -> sentimentString, "timeDuration" -> 0, "gender" -> "X")

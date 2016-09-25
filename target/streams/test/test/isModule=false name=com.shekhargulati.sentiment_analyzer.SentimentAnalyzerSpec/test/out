@@ -1,3 +1,9 @@
 [0m[[0minfo[0m] [0m[32mSentimentAnalyzerSpec:[0m[0m
 [0m[[0minfo[0m] [0m[32msentiment analyzer[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return POSITIVE when input has positive emotion[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return NEGATIVE when input has negative emotion[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return NEUTRAL when input has no emotion[0m[0m
+[0m[[0minfo[0m] [0m[32m  COTA supplied texts[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return NEUTRAL when input has mixed emotion[0m[0m
+[0m[[0minfo[0m] [0m[31m  - should return POSITIVE affect *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m    "[neutral]" was not equal to "[positive]" (SentimentAnalyzerSpec.scala:59)[0m[0m
