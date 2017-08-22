@@ -1,6 +1,0 @@
-To do:
-  get gender working
-  get date parsing and range working
-  higher method to split sentences
-    can determine mixed sentiment longitudinally iterating
-    which coordinates dates

@@ -19,20 +19,21 @@ name hashing:
 1 items
 0 -> true
 products:
-7 items
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment$.class
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment.class
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$1.class
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$1.class
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$2.class
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$.class
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer.class
+8 items
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment$.class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment.class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$1.class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$1.class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$2.class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractTimeDuration$1.class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$.class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer.class
 binary dependencies:
 4 items
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.0.jar
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.2.jar
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /home/alexi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.0.jar
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.2.jar
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /home/alexi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -50,153 +51,195 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-7 items
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.Sentiment
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.Sentiment$
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$$anonfun$1
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$$anonfun$extractSentiments$1
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$$anonfun$extractSentiments$2
+8 items
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.Sentiment
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.Sentiment$
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$$anonfun$1
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$$anonfun$extractSentiments$1
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$$anonfun$extractSentiments$2
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com.shekhargulati.sentiment_analyzer.SentimentAnalyzer$$anonfun$extractTimeDuration$1
 used names:
-124 items
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> ->
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> <init>
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> <refinement>
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> <repeated>
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> ==
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> ?0
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> A
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Annotation
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Any
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> AnyRef
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> ArrowAssoc
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> B
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Boolean
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Buffer
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> CanBuildFrom
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Class
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Coll
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> CoreAnnotations
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> CoreMap
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Enumeration
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Function1
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> IllegalArgumentException
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Int
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> IntWrites
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> JsObject
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> JsValue
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> JsValueWrapper
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Json
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Key
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> List
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> MatchError
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> NEGATIVE
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> NEUTRAL
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Nothing
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Object
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Option
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Ordering
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> POSITIVE
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Predef
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Properties
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> RNNCoreAnnotations
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Reads
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Sentiment
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> SentimentAnalyzer
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> SentimentCoreAnnotations
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Some
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> StanfordCoreNLP
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> String
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> StringReads
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> StringWrites
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> T
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> T0
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> T1
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> T2
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> That
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Tree
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Tuple2
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> TypesafeMap
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> VALUE
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Value
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> Writes
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> \
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> _1
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> _2
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> annotation
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> api
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> apply
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> as
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> asInstanceOf
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> asScalaBuffer
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> canBuildFrom
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> collection
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> com
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> convert
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> edu
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> extractSentiment
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> extractSentiments
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> get
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> getPredictedClass
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> input
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> isEmpty
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> isInstanceOf
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> java
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> json
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> length
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> libs
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> ling
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> mainSentiment
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> map
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> math
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> maxBy
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> mutable
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> ne
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> neural
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> nlp
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> obj
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> package
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> paragraph
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> pipeline
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> play
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> process
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> props
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> rnn
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> scala
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> sentence
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> sentences
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> sentiment
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> sentimentString
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> sentiment_analyzer
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> setProperty
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> shekhargulati
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> stanford
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> text
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> toJsFieldJsValueWrapper
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> toList
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> toSentiment
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> toString
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> tree
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> unary_!
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> unchecked
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> util
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> wrapAll
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> x
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> ||
+165 items
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> +
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> +=
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> -
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ->
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> /
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> <init>
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> <refinement>
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> <repeated>
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ==
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> >=
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ?0
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> A
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Annotation
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Any
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> AnyRef
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ArrowAssoc
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> B
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Boolean
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Buffer
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> CanBuildFrom
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> CharSequence
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Class
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Coll
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> CoreAnnotations
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> CoreMap
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Date
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Enumeration
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Function1
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> IllegalArgumentException
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Int
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> JsObject
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> JsValue
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> JsValueWrapper
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Json
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Key
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> List
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ListBuffer
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Long
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> MatchError
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> MatchIterator
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> NEGATIVE
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> NEUTRAL
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> None
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Nothing
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Object
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Option
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Ordering
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> POSITIVE
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Predef
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Properties
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> RNNCoreAnnotations
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Reads
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Regex
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Sentiment
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> SentimentAnalyzer
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> SentimentCoreAnnotations
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> SimpleDateFormat
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Some
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> StanfordCoreNLP
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> String
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> StringOps
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> StringReads
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> StringWrites
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> T
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> T0
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> T1
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> T2
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> That
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Tree
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Tuple2
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> TypesafeMap
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> U
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Unit
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> VALUE
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Value
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> Writes
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> \
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> _1
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> _2
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> annotation
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> api
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> apply
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> as
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> asInstanceOf
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> asScalaBuffer
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> augmentString
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> calculatedDuration
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> canBuildFrom
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> collection
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> com
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> convert
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> date
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> dates
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> day_in_ms
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> edu
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> extractGender
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> extractSentiment
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> extractSentiments
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> extractTimeDuration
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> female_pattern
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> female_result
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> findAllIn
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> findFirstIn
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> foreach
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> format
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> gender
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> get
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> getPredictedClass
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> getTime
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> head
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> input
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> isEmpty
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> isInstanceOf
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> java
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> json
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> last
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> length
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> libs
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ling
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> mainSentiment
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> male_pattern
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> male_result
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> map
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> math
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> maxBy
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> mutable
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ne
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> neural
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> nlp
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> obj
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> orderedDates
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> package
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> paragraph
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> parse
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> pattern
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> pipeline
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> play
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> process
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> props
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> r
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> result
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> rnn
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> scala
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> sentence
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> sentences
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> sentiment
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> sentimentString
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> sentiment_analyzer
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> setProperty
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> shekhargulati
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> sorted
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> stanford
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> text
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> timeDuration
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> toJsFieldJsValueWrapper
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> toList
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> toSentiment
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> toString
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> tree
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> unary_!
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> unchecked
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> util
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> wrapAll
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> x
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> ||
 product stamps:
-7 items
-/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment$.class -> lastModified(1474832288000)
-/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment.class -> lastModified(1474832288000)
-/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$1.class -> lastModified(1474832288000)
-/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$1.class -> lastModified(1474832288000)
-/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$2.class -> lastModified(1474832288000)
-/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$.class -> lastModified(1474832288000)
-/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer.class -> lastModified(1474832288000)
+8 items
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment$.class -> lastModified(1474841870000)
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/Sentiment.class -> lastModified(1474841870000)
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$1.class -> lastModified(1474841870000)
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$1.class -> lastModified(1474841870000)
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractSentiments$2.class -> lastModified(1474841870000)
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$$anonfun$extractTimeDuration$1.class -> lastModified(1474841870000)
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer$.class -> lastModified(1474841870000)
+/home/alexi/Documents/projects/cota/target/scala-2.11/classes/com/shekhargulati/sentiment_analyzer/SentimentAnalyzer.class -> lastModified(1474841870000)
 source stamps:
-2 items
-/home/alexi/Documents/projects/cota/src/main/scala/GenderAnalyzer.scala -> hash(84e100aca0ee86599379246d90c1ab43ea5b1d5d)
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> hash(42c44d5cabdeb83db91242c9a2b8c8333888d446)
+1 items
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> hash(14b3fcb63cec4e14def46487edca8b68f44f75b6)
 binary stamps:
 4 items
 /home/alexi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.0.jar -> lastModified(1429629151000)
@@ -205,26 +248,22 @@ binary stamps:
 /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1474759884000)
 class names:
 4 items
-/home/alexi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.0.jar -> play.api.libs.json.DefaultWrites
-/home/alexi/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.2.jar -> edu.stanford.nlp.pipeline.StanfordCoreNLP
+/home/alexi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.0.jar -> play.api.libs.json.Reads$
+/home/alexi/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.2.jar -> edu.stanford.nlp.trees.Tree
 /home/alexi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Enumeration
 /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
 internal apis:
-2 items
-/home/alexi/Documents/projects/cota/src/main/scala/GenderAnalyzer.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFXXnHDNnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdAA9L2hvbWUvYWxleGkvRG9jdW1lbnRzL3Byb2plY3RzL2NvdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIThAKyg7oZZk3kkbZDBq0PqWx1d
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwV2p3XgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAANzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAKjgHBdAAIb3JkZXJpbmdzcQB+AAuWUJgidAAMY2FuQnVpbGRGcm9tc3EAfgALfmbFrHQADW1rT3JkZXJpbmdPcHN1cQB+AAkAAADEc3EAfgALhz5S53QADGl0ZXJhdG9yRnJvbXNxAH4AC7zgRGR0AAp0b0l0ZXJhYmxlc3EAfgAL7eFeGHQACndpdGhGaWx0ZXJzcQB+AAup5w+0dAANdG9UcmF2ZXJzYWJsZXNxAH4ACyyVHZh0ABFTZW50aW1lbnRBbmFseXplcnNxAH4ACyKmT5Z0AAZub3RpZnlzcQB+AAv0Je4udAAEZmluZHNxAH4ACyhmIXh0AARzcGFuc3EAfgALPwqtJnQAB2ZsYXR0ZW5zcQB+AAvLRZMZdAAIdG9CdWZmZXJzcQB+AAu1X7C4dAANbWFpblNlbnRpbWVudHNxAH4ACw52Dx10AAVjb3VudHNxAH4AC+JNFFF0AAZuZXh0SWRzcQB+AAv1oeYKdAAMcmVkdWNlT3B0aW9uc3EAfgALaqYoK3QAE3NsaWNlV2l0aEtub3duRGVsdGFzcQB+AAuaoTbPdAAEd2FpdHNxAH4ACyHfebJ0AAI8PXNxAH4AC7a55DF0AAlmb2xkUmlnaHRzcQB+AAs9WKexdAAHTkVVVFJBTHNxAH4ACx6Z5iR0AAl0YWtlV2hpbGVzcQB+AAuYcWBGdAAMc3RyaW5nUHJlZml4c3EAfgALwU8oLnQADSRhc0luc3RhbmNlT2ZzcQB+AAtxVkqzdAAFZW1wdHlzcQB+AAs2O8J/dAAHc3BsaXRBdHNxAH4ACw6IKZd0AAVtaW5CeXNxAH4AC3WEOa10AARzaXplc3EAfgALb0hy9nQABXVuaW9uc3EAfgALl3rJmnQACWludGVyc2VjdHNxAH4ACzU2ED90AAVpbml0c3NxAH4AC2TC1Rx0AAN6aXBzcQB+AAtCzCzcdAAHY29tcG9zZXNxAH4AC3SJ2bV0AAV0b1NldHNxAH4ACw0FQXp0AAhzdWJzZXRPZnNxAH4AC3DWTZd0AAt0b1NlbnRpbWVudHNxAH4AC9Eyngx0AAI6XHNxAH4AC5Blzq50AANtYXBzcQB+AAsfVOpMdAAJdGFrZVJpZ2h0c3EAfgALaB3taHQACWRyb3BXaGlsZXNxAH4AC6LHVMd0AAV0b01hcHNxAH4AC8XnI0t0AAlmaWx0ZXJOb3RzcQB+AAvavrSadAAGZXF1YWxzc3EAfgALtI6odHQAA3BhcnNxAH4AC/+uEtN0AAZ1bnppcDNzcQB+AAsPXerxdAAITkVHQVRJVkVzcQB+AAvL2XQ7dAAEcmVwcnNxAH4AC4yFe5J0AAhQT1NJVElWRXNxAH4AC6ofDhx0AAZ0b0xpc3RzcQB+AAuXhf5cdAASaXNUcmF2ZXJzYWJsZUFnYWluc3EAfgAL8MAQ+HQABGhlYWRzcQB+AAtbzA02dAAMYXNJbnN0YW5jZU9mc3EAfgALjNHf2XQADHNhbWVFbGVtZW50c3NxAH4AC/kBngh0ABB0aGVuQ29tcGFyaW5nSW50c3EAfgAL/7scM3QAATxzcQB+AAtpdLA6dAAFdW56aXBzcQB+AAsb83NXdAAJc2VudGltZW50c3EAfgAL9c69/XQAEHJlZHVjZUxlZnRPcHRpb25zcQB+AAsna2RydAABJnNxAH4AC9UPjPF0AAxzeW5jaHJvbml6ZWRzcQB+AAsLQ1nxdAAHc2xpZGluZ3NxAH4AC5TevI10AAl0b0JpdE1hc2tzcQB+AAvJM7IHdAAEU2VsZnNxAH4ACx4gsdV0AAlwYXJ0aXRpb25zcQB+AAuqEAT6dAAJYWdncmVnYXRlc3EAfgAL1w+wb3QADSRpc0luc3RhbmNlT2ZzcQB+AAu9UrlgdAAGZm9yYWxsc3EAfgAL8v0CSnQACm5ld0J1aWxkZXJzcQB+AAunZtzGdAAHYW5kVGhlbnNxAH4AC7URbUR0AAhta1N0cmluZ3NxAH4AC7pBQKt0AAI+PXNxAH4AC3Q7yRB0AANtaW5zcQB+AAv7vlQUdAAJc2NhblJpZ2h0c3EAfgALvFRyHXQABmhhc0FsbHNxAH4ACwH/Om10AARmb2xkc3EAfgALZNLVgnQAAXxzcQB+AAugmUwkdAAEc2NhbnNxAH4ACy57kFZ0AAhub25FbXB0eXNxAH4AC6I92Yd0AAhjYW5FcXVhbHNxAH4AC/b3pf50AAR0YWlsc3EAfgALXOiU1XQACmxhc3RPcHRpb25zcQB+AAsc77W8dAADVmFsc3EAfgALFZeZyHQACWRyb3BSaWdodHNxAH4AC+bEDHl0AAhpdGVyYXRvcnNxAH4AC1O6pEF0AARsYXN0c3EAfgALVO2fcnQADVZhbHVlT3JkZXJpbmdzcQB+AAuc97vhdAAFVmFsdWVzcQB+AAuYnvbudAALZnJvbUJpdE1hc2tzcQB+AAs4p4xDdAAJb3V0ZXJFbnVtc3EAfgALjDxbQHQABXVudGlsc3EAfgALMn54G3QACVNlbnRpbWVudHNxAH4AC+S3bJN0AAlub3RpZnlBbGxzcQB+AAuzYj4AdAALcmVhZFJlc29sdmVzcQB+AAuXD+ghdAACLzpzcQB+AAvoKWIJdAAKdG9JdGVyYXRvcnNxAH4AC1XweOx0AAlhZGRTdHJpbmdzcQB+AAtOyYcLdAAIcGlwZWxpbmVzcQB+AAsEHP+ZdAACdG9zcQB+AAvkOAFhdAAGa2V5U2V0c3EAfgALgWkThnQADGNvbGxlY3RGaXJzdHNxAH4AC9lhxV50AAljb21wYXJlVG9zcQB+AAtGP1y7dAAQa2V5c0l0ZXJhdG9yRnJvbXNxAH4AC5beuV90AARkcm9wc3EAfgAL30bP8HQAAS1zcQB+AAv0dcNJdAAMaXNJbnN0YW5jZU9mc3EAfgAL6MO+CXQAB3JldmVyc2VzcQB+AAs7bZb/dAAFbWF4SWRzcQB+AAssGimYdAAGZmlsdGVyc3EAfgALbF+FnnQAAysrOnNxAH4AC/sBX8V0AAhuZXh0TmFtZXNxAH4AC0JTqrJ0AAY8aW5pdD5zcQB+AAtB9AN2dAAIdG9TdHJlYW1zcQB+AAt88KKQdAACaWRzcQB+AAuS2f7MdAAJY29tcGFuaW9uc3EAfgALF070QHQAA21heHNxAH4AC1R+YwV0AAJvbnNxAH4AC5bLLqV0AAV0YWlsc3NxAH4AC6+KWXp0AAhWYWx1ZVNldHNxAH4AC3MHL4x0AAVhcHBseXNxAH4AC6nmzSN0AAh3aXRoTmFtZXNxAH4AC5gzwm90AAIrK3NxAH4AC/awkjd0AAdncm91cGVkc3EAfgALh961DHQABGRpZmZzcQB+AAvRaEPidAAHZmxhdE1hcHNxAH4AC2c4HI90AAR0YWtlc3EAfgALqJ/24nQAC3BhckNvbWJpbmVyc3EAfgALxkR9u3QAC3JlZHVjZVJpZ2h0c3EAfgALVd4JlHQAB2dyb3VwQnlzcQB+AAud0LpNdAACPT1zcQB+AAvRJj3BdAAFbWF4QnlzcQB+AAuA+Fz9dAAFcmFuZ2VzcQB+AAsanN2pdAANdGhlbkNvbXBhcmluZ3NxAH4ACxLqVZF0ABNzbGljZVdpdGhLbm93bkJvdW5kc3EAfgALCIq1B3QABWNsb25lc3EAfgAL+KcCI3QABXNsaWNlc3EAfgALE/efu3QAB2ZvcmVhY2hzcQB+AAvHHKzsdAAHbGFzdEtleXNxAH4AC8iYUyF0AAImfnNxAH4AC8zOuQB0AARsdGVxc3EAfgALkC/gu3QABmV4aXN0c3NxAH4AC0b9Jbx0ABFyZWR1Y2VSaWdodE9wdGlvbnNxAH4AC/bUvE90AAh0b1ZlY3RvcnNxAH4AC71OV6V0AAx0b0luZGV4ZWRTZXFzcQB+AAvn8ArRdAAKdHJ5Q29tcGFyZXNxAH4ACxL+97h0AAxjb3B5VG9CdWZmZXJzcQB+AAuq1xzxdAAHdG9BcnJheXNxAH4AC1sWoip0AAZyZWR1Y2VzcQB+AAubBC0jdAAHc3Vic2V0c3NxAH4AC9cSf9B0AARmcm9tc3EAfgALc+iuOXQABiRpbml0JHNxAH4AC8QRhnF0AAV0b1NlcXNxAH4AC+n44Fd0AAx6aXBXaXRoSW5kZXhzcQB+AAsHLQYNdAATdGhlbkNvbXBhcmluZ0RvdWJsZXNxAH4AC7rh+Nl0ABFleHRyYWN0U2VudGltZW50c3NxAH4AC4FK2KN0AAhmaXJzdEtleXNxAH4AC6Lnuup0AAZ2YWx1ZXNzcQB+AAuGdBlfdAAIdG9TdHJpbmdzcQB+AAtF4b64dAAOZ2VuZXJpY0J1aWxkZXJzcQB+AAsi0ZFRdAALY29weVRvQXJyYXlzcQB+AAunIszydAADc2Vxc3EAfgALjJUUeHQAAStzcQB+AAvFGAq/dAACIT1zcQB+AAugJa31dAAJdHJhbnNwb3Nlc3EAfgAL06hJu3QABWVxdWl2c3EAfgALZkaSLnQAB2NvbGxlY3RzcQB+AAvJp13SdAAKaGVhZE9wdGlvbnNxAH4AC3MjwPN0AAhnZXRDbGFzc3NxAH4AC4YKsCh0AApXaXRoRmlsdGVyc3EAfgALxWJzy3QAD2hhc0RlZmluaXRlU2l6ZXNxAH4ACwswjI10AAVwcm9wc3NxAH4AC7qo9g50AAItLXNxAH4AC+CYUO10AAhmb2xkTGVmdHNxAH4AC9rSs1B0AAhjb250YWluc3NxAH4AC/lw+2B0ABF0aGVuQ29tcGFyaW5nTG9uZ3NxAH4AC1GrtVJ0AAx0b0NvbGxlY3Rpb25zcQB+AAsa4EngdAAHaXNFbXB0eXNxAH4ACwkgsi90AAtwcm9jZXNzSnNvbnNxAH4AC7Va9Vp0AAJuZXNxAH4AC798RWt0AAJsdHNxAH4AC8YCNW50AARpbml0c3EAfgALoO3YGnQAAmd0c3EAfgALrjik0XQACHJldmVyc2Vkc3EAfgALMwyC7HQAA09wc3NxAH4AC7y8AKJ0AApyZWR1Y2VMZWZ0c3EAfgALs4ij6XQAAmVxc3EAfgALSF6vnHQAB2NvbXBhcmVzcQB+AAu4MgS2dAADc3Vtc3EAfgALHSaRmnQADnRoaXNDb2xsZWN0aW9uc3EAfgALuM6pEHQAAT5zcQB+AAtvFjcqdAACIyNzcQB+AAsFgP/EdAAIc2NhbkxlZnRzcQB+AAvvP1NidAAIZmluYWxpemVzcQB+AAtKi0EydAAIaGFzaENvZGVzcQB+AAuNyZKidAAJcmFuZ2VJbXBsc3EAfgALomkQv3QABnppcEFsbHNxAH4AC5PKZ0h0AAdwcm9kdWN0c3EAfgAL5Y0/TXQABHZpZXdzcQB+AAtAxkdadAAEZ3RlcXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AaV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ADZjb20uc2hla2hhcmd1bGF0aS5zZW50aW1lbnRfYW5hbHl6ZXIuU2VudGltZW50QW5hbHl6ZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+Ab1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4BpUwACWluaGVyaXRlZHEAfgGlTAAHcGFyZW50c3EAfgGleHEAfgHCc3EAfgG9dXEAfgGgAAAAAHNxAH4BvXVxAH4BoAAAAABzcQB+Ab11cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AcF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AcFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+Adp0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AdtzcQB+Ac50AANBbnlzcQB+AdJzcQB+AdV1cQB+AdgAAAACc3EAfgHadAAFc2NhbGFxAH4B4XNxAH4BonEAfgGvdXEAfgGwAAAAAHNxAH4BsgB0AC5jb20uc2hla2hhcmd1bGF0aS5zZW50aW1lbnRfYW5hbHl6ZXIuU2VudGltZW50dXEAfgG1AAAAAHEAfgG5dXEAfgG7AAAAAHNxAH4BvXEAfgHDc3EAfgG9c3EAfgHFc3EAfgG9dXEAfgGgAAAAAHNxAH4BvXVxAH4BoAAAAABzcQB+Ab11cQB+AcwAAAAFc3EAfgHOdAALRW51bWVyYXRpb25zcQB+AdJzcQB+AdV1cQB+AdgAAAACc3EAfgHacQB+AehxAH4B4XNxAH4BznQADFNlcmlhbGl6YWJsZXEAfgH6c3EAfgHOcQB+Af9zcQB+AdJzcQB+AdV1cQB+AdgAAAADc3EAfgHacQB+Ad1zcQB+Adp0AAJpb3EAfgHhc3EAfgHOcQB+AdFzcQB+AdJzcQB+AdV1cQB+AdgAAAADc3EAfgHacQB+Ad1zcQB+AdpxAH4B33EAfgHhc3EAfgHOcQB+AeNxAH4B+nVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAJGNvbS5zaGVraGFyZ3VsYXRpLnNlbnRpbWVudF9hbmFseXplcnNxAH4CEHQAA2NvbXNxAH4CEHQAEWNvbS5zaGVraGFyZ3VsYXRpc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFXYtql+3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AD0vaG9tZS9hbGV4aS9Eb2N1bWVudHMvcHJvamVjdHMvY290YS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUQsRNXKveuD25EkLJorjIMziI1EY=
+1 items
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwB2Ug6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAANzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAKjgHBdAAIb3JkZXJpbmdzcQB+AAuWUJgidAAMY2FuQnVpbGRGcm9tc3EAfgALfmbFrHQADW1rT3JkZXJpbmdPcHN1cQB+AAkAAADGc3EAfgALhz5S53QADGl0ZXJhdG9yRnJvbXNxAH4AC7zgRGR0AAp0b0l0ZXJhYmxlc3EAfgAL7eFeGHQACndpdGhGaWx0ZXJzcQB+AAup5w+0dAANdG9UcmF2ZXJzYWJsZXNxAH4ACyyVHZh0ABFTZW50aW1lbnRBbmFseXplcnNxAH4ACyKmT5Z0AAZub3RpZnlzcQB+AAv0Je4udAAEZmluZHNxAH4ACyhmIXh0AARzcGFuc3EAfgALPwqtJnQAB2ZsYXR0ZW5zcQB+AAvLRZMZdAAIdG9CdWZmZXJzcQB+AAu1X7C4dAANbWFpblNlbnRpbWVudHNxAH4AC4hChPl0ABNleHRyYWN0VGltZUR1cmF0aW9uc3EAfgALDnYPHXQABWNvdW50c3EAfgAL4k0UUXQABm5leHRJZHNxAH4AC/W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L7z9TYnQACGZpbmFsaXplc3EAfgALSotBMnQACGhhc2hDb2Rlc3EAfgALjcmSonQACXJhbmdlSW1wbHNxAH4AC6JpEL90AAZ6aXBBbGxzcQB+AAuTymdIdAAHcHJvZHVjdHNxAH4AC+WNP010AAR2aWV3c3EAfgALQMZHWnQABGd0ZXFzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgGpeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAA2Y29tLnNoZWtoYXJndWxhdGkuc2VudGltZW50X2FuYWx5emVyLlNlbnRpbWVudEFuYWx5emVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgHBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AalMAAlpbmhlcml0ZWRxAH4BqUwAB3BhcmVudHNxAH4BqXhxAH4BxnNxAH4BwXVxAH4BpAAAAABzcQB+AcF1cQB+AaQAAAAAc3EAfgHBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgHFdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgHFc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgHedAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgHfc3EAfgHSdAADQW55c3EAfgHWc3EAfgHZdXEAfgHcAAAAAnNxAH4B3nQABXNjYWxhcQB+AeVzcQB+AaZxAH4Bs3VxAH4BtAAAAABzcQB+AbYAdAAuY29tLnNoZWtoYXJndWxhdGkuc2VudGltZW50X2FuYWx5emVyLlNlbnRpbWVudHVxAH4BuQAAAABxAH4BvXVxAH4BvwAAAABzcQB+AcFxAH4Bx3NxAH4BwXNxAH4ByXNxAH4BwXVxAH4BpAAAAABzcQB+AcF1cQB+AaQAAAAAc3EAfgHBdXEAfgHQAAAABXNxAH4B0nQAC0VudW1lcmF0aW9uc3EAfgHWc3EAfgHZdXEAfgHcAAAAAnNxAH4B3nEAfgHscQB+AeVzcQB+AdJ0AAxTZXJpYWxpemFibGVxAH4B/nNxAH4B0nEAfgIDc3EAfgHWc3EAfgHZdXEAfgHcAAAAA3NxAH4B3nEAfgHhc3EAfgHedAACaW9xAH4B5XNxAH4B0nEAfgHVc3EAfgHWc3EAfgHZdXEAfgHcAAAAA3NxAH4B3nEAfgHhc3EAfgHecQB+AeNxAH4B5XNxAH4B0nEAfgHncQB+Af51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0ACRjb20uc2hla2hhcmd1bGF0aS5zZW50aW1lbnRfYW5hbHl6ZXJzcQB+AhR0AANjb21zcQB+AhR0ABFjb20uc2hla2hhcmd1bGF0aXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Ns+xp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA9L2hvbWUvYWxleGkvRG9jdW1lbnRzL3Byb2plY3RzL2NvdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBSz/LY87E4U3vRkh+3Ki2j0T3W2
 external apis:
 0 items
 source infos:
-2 items
-/home/alexi/Documents/projects/cota/src/main/scala/GenderAnalyzer.scala -> 
-AAAAAAAAAAA=
-/home/alexi/Documents/projects/cota/src/main/scala/SentimentAnalyzer.scala -> 
+1 items
+/home/alexi/Documents/projects/cota/src/main/scala/ParagraphAnalyzer.scala -> 
 AAAAAAAAAAA=
 compilations:
-14 items
+54 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV13qpXh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV14lakV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV15E17x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
@@ -239,3 +278,43 @@ compilations:
 11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Kf0JJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2KinvV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Lapft1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Lk4iN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2LmtCx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2MJXKx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2MKfZF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2MMoId1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2MNxpd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2MRLVV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2MW2OV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2MbrFp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Mc72V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NDhY91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NP8w11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NQakZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NSV751cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NUeKV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NVYUZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NV2ux1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NW5E51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NZPQ91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+33 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NaNgp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+34 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NdYsJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Neayl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NfDBp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Nfi611cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+38 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Nf8Lh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+39 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NhH9V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+40 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NhYm11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+41 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NhsgZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+42 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Nh/6F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+43 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NiZ1J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+44 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Nii951cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+45 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NjGHh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+46 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NmLkl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+47 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NmkiR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+48 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NnWoh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+49 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2No5SJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+50 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NpPJV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+51 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NrZtF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2NrtOt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+53 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV2Ns+xp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2FsZXhpL0RvY3VtZW50cy9wcm9qZWN0cy9jb3RhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
